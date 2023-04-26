@@ -4,7 +4,8 @@
 #define MAX 1000
 
 int main(){
-    char binarynum[1000], hexa[1000];
+    long long int binarynum[1000];
+    char hexa[1000];
     long int i = 0;
     printf("Enter the value for hexadecimal ");
     scanf("%s",hexa);
